@@ -4,4 +4,4 @@ Steps To Run the Tests
 - Create a .env file with the credentials -> WEBUSERNAME, WEBPASSWORD, APIKEY
 - npx playwright test
 
-There is a bug when test are run in parallel with the API, multiple 401 are returned
+There is a bug when test are run in parallel with the API, multiple 401 are returned. Then parallel execution is disabled
