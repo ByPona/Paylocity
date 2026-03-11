@@ -1,1 +1,45 @@
+Test Report – Benefits Dashboard
+--------------------------------------------------------------
+Candidate: Fernando Castro
+Role: SDET
+Date: March 2026
+Application Tested: Benefits Dashboard & Employees API
+--------------------------------------------------------------
+Objective
+--------------------------------------------------------------
+The objective of this testing session was to evaluate the Benefits Dashboard application and its Employees API to identify defects related to functionality, API behavior, authentication, data integrity, and UI consistency.
+--------------------------------------------------------------
+Testing Approach
+--------------------------------------------------------------
+Testing was performed using a combination of exploratory testing and API validation.
+The focus areas included:
 
+- Employee CRUD operations
+
+- API response behavior and HTTP status codes
+
+- Authentication and session handling
+
+- Input validation and error handling
+
+- UI behavior and edge cases
+
+- Data consistency between UI and API
+--------------------------------------------------------------
+Tools Used
+--------------------------------------------------------------
+Playwright – UI automation and behavior validation
+
+Postman – API testing and request validation
+
+Browser Developer Tools – network inspection and debugging
+--------------------------------------------------------------
+Test Summary
+--------------------------------------------------------------
+Priority	Issues Found
+P0 – Blocker	3
+P1 – High	6
+P2 – Medium	2
+P3 – Low	6
+
+Total Issues Identified: 17
