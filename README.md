@@ -5,3 +5,5 @@ Steps To Run the Tests
 - npx playwright test
 
 There is a bug when test are run in parallel with the API, multiple 401 are returned. Then parallel execution is disabled
+
+The bug reports are located inside the BugChallenge folder. They are split into UI Bugs and API Bugs, along with a Summary Test Report (.txt) file.
